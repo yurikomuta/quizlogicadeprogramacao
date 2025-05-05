@@ -5,27 +5,38 @@
 	<meta charset="UTF-8">
 	<title>Quiz Lógica de Programação</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Quiz sobre Lógica de Programação da Fábrica de Programadores">
 	<link rel="stylesheet" href="style.css">
-	
 </head>
 
 <body>
 	<div class="container">
-		<h1>Quiz: Lógica de Programação | Fábrica de Programadores</h1>
+		<header>
+			<h1>Quiz: Lógica de Programação | Fábrica de Programadores</h1>
+			<div id="progress-container">
+				<div id="progress-bar"></div>
+			</div>
+		</header>
 		
-		<hr>
-		<div id="quiz"></div>
-		<hr>
-		<div>
-			<button id="prevBtn" class="nav-btn" onclick="prevQuestion()">Anterior</button>
-			<button id="nextBtn" class="nav-btn" onclick="nextQuestion()">Próxima</button>
-		</div>
-		<div id="feedback" class="feedback"></div>
-		<div id="score" class="score"></div>
-		<div class="imagens">
-			<img src="logo.jpg" alt="Fábrica de Programadores">
-			<img src="senai.png" alt="SENAI">
-		</div>
+		<main>
+			<div id="quiz" aria-live="polite"></div>
+			
+			<div class="navigation">
+				<button id="prevBtn" class="nav-btn" onclick="prevQuestion()" aria-label="Questão anterior">Anterior</button>
+				<div id="question-counter"></div>
+				<button id="nextBtn" class="nav-btn" onclick="nextQuestion()" aria-label="Próxima questão">Próxima</button>
+			</div>
+			
+			<div id="feedback" class="feedback" aria-live="assertive"></div>
+			<div id="score" class="score"></div>
+		</main>
+		
+		<footer>
+			<div class="imagens">
+				<img src="logo.jpg" alt="Logo Fábrica de Programadores">
+				<img src="senai.png" alt="Logo SENAI">
+			</div>
+		</footer>
 	</div>
 	<script src="script.js"></script>
 </body>
