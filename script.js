@@ -85,8 +85,8 @@ const questions = [
     correct: 0,
   },
   {
-    text: "10. Qual comando em Portugol é utilizado para obter dados digitados pelo usuário?",
-    choices: ["A) escreva()", "B) leia()", "C) se()", "D) repita()"],
+    text: "10. Qual comando em Python é utilizado para obter dados digitados pelo usuário?",
+    choices: ["A) input()", "B) int()", "C) if()", "D) print()"],
     correct: 1,
   },
 ];
