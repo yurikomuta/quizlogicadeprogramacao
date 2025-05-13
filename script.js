@@ -70,7 +70,7 @@ const questions = [
     correct: 1,
   },
   {
-    text: "8. No exemplo de programa apresentado, qual operação é realizada após a leitura dos dois números?",
+    text: "8. No exemplo de programa apresentado, qual operação é realizada após a leitura dos dois números? a = 10 + 5",
     choices: ["A) Multiplicação.", "B) Divisão.", "C) Subtração.", "D) Soma."],
     correct: 3,
   },
