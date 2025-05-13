@@ -87,7 +87,7 @@ const questions = [
   {
     text: "10. Qual comando em Python é utilizado para obter dados digitados pelo usuário?",
     choices: ["A) input()", "B) int()", "C) if()", "D) print()"],
-    correct: 1,
+    correct: 0,
   },
 ];
 
